@@ -64,8 +64,8 @@ img::-moz-selection {
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-  background-color: #00ff9b !important;
-  border-color: #00ff9b !important;
+  background-color: #00cd7d !important;
+  border-color: #00cd7d !important;
   color: white;
 }
 .btn-primary:active,
