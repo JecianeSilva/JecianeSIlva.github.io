@@ -1,7 +1,7 @@
 
 .page-section {
-  height: 100%;
-  width: 95vh;
+  height: 90vh;
+  width: 100%;
 }
 .page-section::before {
   content: "";
@@ -48,10 +48,9 @@
 
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  /* padding: 40px 0px; */
+  justify-content: space-evenly;
+  padding: 40px 0px;
   margin: 0 auto;
-  gap: 48px;
 }
 .construction-header{
   display: flex;
@@ -59,14 +58,19 @@
   align-items: center;
   justify-content: center;
 }
+
+.construction-header .profile-image{
+  height: 72px;
+  width: 72px;
+}
 .construction-header .profile-info .info-name{
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   letter-space: 10%;
   font-weight: 500;
   line-height: 120%;
 }
 .construction-header .profile-info .info-function{
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 300;
   line-height: 150%;
   letter-space: 5%;
@@ -88,7 +92,7 @@
   font-size: 4.8rem;
   font-weight: 700;
   line-height: 130%;
-  margin-bottom: 16px;
+  margin-bottom: 18px;
 /* 
   @media(max-width: 768px){
     font-size: 4.8rem;
@@ -102,11 +106,11 @@
 }
 
 .description {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 300;
   line-height: 150%;
   text-align: center; 
-  margin-bottom: 24px;  
+  margin-bottom: 18px;  
 /* 
   @media(max-width: 768px){
     font-size: 1.6rem;
@@ -119,8 +123,8 @@ div.social-media-container {
   justify-content: center;
   
   > a  img{
-    height: 48px;
-    width: 48px;
+    height: 36px;
+    width: 36px;
   }
   > a  img:hover{
     border-radius: 100%;
@@ -143,7 +147,7 @@ footer#copyright.page-footer {
   width: 100%;
   align-items: center;
   justify-content: center;
-  padding: 18px 0;
+  padding: 16px 0;
 
   > div span.copyright {
     color: white;
